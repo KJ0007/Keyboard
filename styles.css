@@ -1,0 +1,81 @@
+.keyboard-grid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(30,1fr);
+    grid-template-rows: repeat(5,75px);
+}
+
+.keyboard-grid > button{
+    cursor: pointer;
+    font-size: 1rem;
+    border: 2px solid white;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+   
+}
+
+.keyboard-grid > button:hover{
+    
+    background-color:  rgba(18, 222, 230, 0.9);
+
+}
+
+.key{
+    grid-column: span 2;
+   
+}
+
+.span-four{
+    grid-column: span 4;
+}
+
+.span-three{
+    grid-column: span 3;
+}
+
+.span-five{
+    grid-column: span 5;
+}
+
+.span-ten{
+ grid-column: span 10;
+}
+
+.paging{
+    display: grid;
+    grid-column: span 3;
+    
+}
+
+
+.paging > button{
+    cursor: pointer;
+    font-size: 1rem;
+    border: 1px solid white;
+   
+}
+
+.paging > button:hover{
+    
+    background-color:  rgba(18, 222, 230, 0.9);
+
+}
+
+
+#input {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    resize: none; /* Prevent resizing */
+}
+
+
+
+
